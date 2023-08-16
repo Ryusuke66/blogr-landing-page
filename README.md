@@ -26,8 +26,8 @@ Users should be able to:
 ## Desktop design
 
 <p float="left">
-  <img src="./screenshots/desktop-design-1.png" width="49%" />
-  <img src="./screenshots/desktop-design-2.png" width="49%" />
+  <img src="./screenshots/desktop-design-1.png" width="48%" />
+  <img src="./screenshots/desktop-design-2.png" width="48%" />
 </p>
 
 ## Mobile design
