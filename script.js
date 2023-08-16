@@ -15,9 +15,9 @@ menuIcon.addEventListener("click", () => {
             top:0,
             left:0,
             behavior: "smooth"
-        })
+        });
     }
-})
+});
 
 body.addEventListener("click", () => {
     if (menuIcon.classList.contains("active")) {
@@ -25,8 +25,8 @@ body.addEventListener("click", () => {
         menuIcon.classList.remove("active");
         menuIcon.classList.add("inactive");
         body.style.overflowY = "auto";
-    };
-})
+    }
+});
 menuIcon.addEventListener("click", (ev)  => {
     ev.stopPropagation();
 });
@@ -44,10 +44,10 @@ for (let i = 0; i < drop.length; i++) {
         } else {
             drop[i].classList.add("on");
         }
-    })
+    });
     dropBar[i].addEventListener("click", (e) => {
         e.stopPropagation();
-    })
+    });
 }
 
 let desktopNav = document.querySelector(".desktop-nav"),
@@ -62,9 +62,9 @@ for (let i = 0; i < desktopDrop.length; i++) {
             desktopDrop.forEach(a => a.classList.remove("on"));
             desktopDrop[i].classList.add("on");
         }
-    })
+    });
     desktopDropBar[i].addEventListener("click", (e) => {
         e.stopPropagation();
-    })
+    });
 }
 
