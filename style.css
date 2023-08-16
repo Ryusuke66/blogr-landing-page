@@ -422,7 +422,8 @@ footer ul .header {
     }
     
     .desktop-nav {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
         width: 100%;
         color: white;
         margin-left: 30px;
@@ -430,7 +431,7 @@ footer ul .header {
 
     .desktop-nav > ul {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
         width: 100%;
     } 
 
@@ -464,9 +465,8 @@ footer ul .header {
         margin-bottom: 15px;
     }
 
-    .desktop-nav .two, .desktop-nav .one{
-        display: flex;
-        align-items: center;
+    .desktop-nav .two {
+        justify-content: flex-end;
     }
 
     .desktop-nav .two .login {
